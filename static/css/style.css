@@ -1,0 +1,32 @@
+.btn{
+    position: relative;
+}
+.oct{
+width:600px;
+left: 30%;
+top: 50%;
+transform: translateY(10%);
+}
+.hid{
+visibility:hidden;
+}
+#info{
+ font-family: "Lucida Console", Courier, monospace;
+   font-size: 40px;
+   position: absolute;
+   color:rgb(102, 0, 102);
+}
+.btn .img-top {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+.btn:hover .img-top {
+    display: inline;
+}
+
+*{
+ background-color: rgb(193, 132, 207);
+}

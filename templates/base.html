@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="utf-8">
+    <title>Octospace</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+     <link rel="stylesheet" href="{{ url_for('static',filename='css/style.css') }}">
+     <script src="{{ url_for('static',filename='js/base.js') }}"></script>
+</head>
+<body>
+    <div id="container">
+    <h1 id="header">Upload new File</h1>
+        <div id="info">The octopus is working hard to generate a schema...</div>
+    <form method=post enctype=multipart/form-data id="form">
+      <input type=file name=file id="hidupd">
+      <input type=submit value=Upload id="hidsbm">
+    </form>
+    <div class="btn oct">
+        <img class="oct" src="{{ url_for('static',filename='images/octopus.png') }}" alt="Upload image" id="octopus">
+        <img src="{{ url_for('static',filename='images/octopushov.png') }}" class="img-top oct" alt="Click me!" id="octohov">
+        <img src="{{ url_for('static',filename='images/octth.png') }}" class="hid oct" alt="Thinking!" id="octoth">
+    </div>
+    </div>
+</body>
+</html>

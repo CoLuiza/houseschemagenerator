@@ -1,0 +1,92 @@
+{
+  "kitchen": {
+    "stove": {
+      "likeness": 300,
+      "limit": 1
+    },
+    "kitchen_table": {
+      "likeness": 100,
+      "limit": "none"
+    },
+    "kitchen_sink": {
+      "likeness": 200,
+      "limit": 1
+    },
+    "fridge": {
+      "likeness": 300,
+      "limit": 1
+    },
+    "dinning_table": {
+      "likeness": 200,
+      "limit": 1
+    }
+  },
+  "bedroom": {
+    "bed": {
+      "likeness": 200,
+      "limit": 1
+    },
+    "bedroom_construct": {
+      "likeness": 10,
+      "limit": 1
+    },
+    "small_couch": {
+      "likeness": 100,
+      "limit": 2
+    },
+    "desk": {
+      "likeness": 200,
+      "limit": 1
+    }
+  },
+  "hall": {
+    "flower1": {
+      "limit": 1,
+      "likeness": 10
+    },
+    "wardrobe": {
+      "limit": 4,
+      "likeness": 1
+    },
+    "table": {
+      "limit": 1,
+      "likeness": 10
+    }
+  },
+  "livingroom": {
+    "livingroom_construct": {
+      "likeness": 400,
+      "limit": 1
+    },
+    "flower2": {
+      "likeness": 10,
+      "limit": 2
+    },
+    "table": {
+      "likeness": 100,
+      "limit": 1
+    },
+    "small_couch": {
+      "likeness": 10,
+      "limit": 2
+    }
+  },
+  "bathroom": {
+    "toilet": {
+      "limit": 1,
+      "likeness": 100
+    },
+    "bath": {
+      "limit": 1,
+      "likeness": 100
+    },
+    "sink": {
+      "limit": 1,
+      "likeness": 100
+    },
+    "flower2": {
+      "limit": 1,
+      "likeness": 1
+    }
+  }
+}
